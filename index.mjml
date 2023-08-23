@@ -1,0 +1,133 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class
+        name="biggest-heading"
+        font-size="20px"
+        font-weight="bold"
+        color="#1C1EB5"
+      />
+      <mj-class
+        name="paragraph"
+        font-size="15px"
+        font-weight="semi-bold"
+        color=""
+      />
+    </mj-attributes>
+    <mj-title>Mybitstore</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#f2f7fd" padding="30px 15px 20px 15px">
+      <mj-section border-radius="5px" background-color="#dcecff">
+        <mj-column
+          ><mj-image
+            width="150px"
+            src="https://www.mybitstore.com/_next/static/media/mbs-logo.2592356a.svg"
+            align="left"
+          />
+          <mj-divider border-color="#1C1EB5"></mj-divider>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#f2f7fd" padding="0px 15px 20px 15px">
+      <mj-section background-color="#fff" border-radius="10px">
+        <mj-column>
+          <mj-text
+            mj-class="biggest-heading"
+            align="center"
+            line-height="25px"
+            font-family="Tahoma"
+            >Confirmation of Your Crypto Purchase with Mybitstore!</mj-text
+          >
+          <mj-text
+            mj-class="paragraph"
+            align="justify"
+            line-height="25px"
+            font-family="Tahoma"
+          >
+            Thank you for choosing Mybitstore for your cryptocurrency purchase.
+            Your trust in us is greatly appreciated.
+          </mj-text>
+          <mj-text
+            mj-class="paragraph"
+            line-height="25px"
+            font-weight="bold"
+            font-family="Tahoma"
+          >
+            <p>Here are the details of your purchase:</p>
+            <p>Transaction ID: {Transaction ID}</p>
+            <p>Date and Time: {Date and Time of Transaction}</p>
+            <p>Amount Purchased: {mount and Currency Purchased}</p>
+            <p>Payment Method: {Payment Method Used}</p>
+          </mj-text>
+          <mj-text
+            mj-class="biggest-heading"
+            align="center"
+            font-family="Tahoma"
+            >Transaction Summary</mj-text
+          >
+          <mj-text
+            mj-class="paragraph"
+            align="justify"
+            line-height="25px"
+            font-family="Tahoma"
+          >
+            You have successfully purchased {Amount and Currency Purchased}
+            worth of cryptocurrency through {Payment Method Used}. Your
+            transaction was completed on [Date and Time of Transaction], and
+            your funds have been securely processed.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section background-color="#dcecff">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="20px" mode="horizontal">
+          <mj-social-element
+            name="facebook"
+            padding-right="20px"
+            border-radius="20px"
+            href="https://mjml.io/"
+          >
+          </mj-social-element>
+          <mj-social-element
+            name="instagram"
+            background-color="indigo"
+            padding-right="20px"
+            border-radius="20px"
+            href="https://mjml.io/"
+          >
+          </mj-social-element>
+          <mj-social-element
+            name="twitter"
+            padding-right="20px"
+            border-radius="20px"
+            href="https://mjml.io/"
+          >
+          </mj-social-element>
+          <mj-social-element
+            name="youtube"
+            border-radius="20px"
+            href="https://mjml.io/"
+          >
+          </mj-social-element>
+        </mj-social>
+        <mj-divider border-color="white"></mj-divider>
+        <mj-text
+          align="center"
+          mj-class="paragraph"
+          color="#1C1EB5"
+          font-weight="bold"
+          >Get the latest Mybitstore App for your phone</mj-text
+        >
+      </mj-column>
+      <mj-column
+        ><mj-image
+          width="150px"
+          src="https://i.imgur.com/wcjYffh.png"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
