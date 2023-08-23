@@ -121,6 +121,8 @@
           >Get the latest Mybitstore App for your phone</mj-text
         >
       </mj-column>
+    </mj-section>
+    <mj-section>
       <mj-column
         ><mj-image
           width="150px"
