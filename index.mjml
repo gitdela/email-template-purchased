@@ -13,148 +13,67 @@
         font-weight="semi-bold"
         color=""
       />
+      <mj-text line-height="20px" font-family="Tahoma" />
     </mj-attributes>
     <mj-title>Mybitstore</mj-title>
   </mj-head>
   <mj-body>
-    <mj-wrapper background-color="#f2f7fd" padding="30px 15px 20px 15px">
-      <mj-section border-radius="5px" background-color="#dcecff">
-        <mj-column
-          ><mj-image
-            width="150px"
-            src="https://www.mybitstore.com/_next/static/media/mbs-logo.2592356a.svg"
-            align="left"
-          />
-          <mj-divider border-color="#1C1EB5"></mj-divider>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
+    <mj-section background-color="#dcecff">
+      <mj-column
+        ><mj-image
+          width="200px"
+          src="https://www.mybitstore.com/_next/static/media/mbs-logo.2592356a.svg"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
     <mj-wrapper background-color="#f2f7fd" padding="0px 15px 20px 15px">
-      <mj-section background-color="#fff" border-radius="10px">
-        <mj-column>
-          <mj-text
-            mj-class="biggest-heading"
-            align="center"
-            line-height="25px"
-            font-family="Tahoma"
-            >Confirmation of Your Crypto Purchase with Mybitstore!</mj-text
+      <mj-section
+        ><mj-column>
+          <mj-text mj-class="biggest-heading" align="center"
+            >Crypto Purchase Receipt</mj-text
           >
+          <mj-divider
+            border-color="#dcecff"
+            border-width="1px"
+            padding="10px 20px"
+          ></mj-divider>
           <mj-text
-            mj-class="paragraph"
-            align="justify"
-            line-height="25px"
-            font-family="Tahoma"
-          >
-            Thank you for choosing Mybitstore for your cryptocurrency purchase.
-            Your trust in us is greatly appreciated.
+            ><p>Hi {Customer Name},</p>
+            <p>
+              Thank you for choosing Mybitstore for your cryptocurrency
+              purchase. Your trust in us is greatly appreciated.
+            </p>
           </mj-text>
-          <mj-text font-family="Tahoma" font-size="15px"
-            >Here are the details of your purchase:</mj-text
-          >
-          <mj-text
-            mj-class="paragraph"
-            line-height="25px"
-            font-weight="bold"
-            font-family="Tahoma"
-          >
+          <mj-text>Here are the details of your purchase:</mj-text>
+          <mj-text>
             <p>Transaction ID: {Transaction ID}</p>
             <p>Date and Time: {Date and Time of Transaction}</p>
-            <p>Amount Purchased: {mount and Currency Purchased}</p>
-            <p>Payment Method: {Payment Method Used}</p>
-          </mj-text>
-          <mj-text
-            mj-class="biggest-heading"
-            align="center"
-            font-family="Tahoma"
-            >Transaction Summary</mj-text
+            <p>Amount Purchased: {Amount and Currency Purchased}</p>
+            <p>Payment Method: {Payment Method Used}</p></mj-text
           >
-          <mj-text
-            mj-class="paragraph"
-            align="justify"
-            line-height="25px"
-            font-family="Tahoma"
-          >
-            You have successfully purchased {Amount and Currency Purchased}
-            worth of cryptocurrency through {Payment Method Used}. Your
-            transaction was completed on [Date and Time of Transaction], and
-            your funds have been securely processed.
-          </mj-text>
+        </mj-column></mj-section
+      >
+      <mj-section>
+        <mj-column>
+          <mj-divider
+            border-color="#dcecff"
+            border-width="1px"
+            padding="10px 20px"
+          ></mj-divider>
+          <mj-text align="center"
+            ><a
+              href="https://apps.apple.com/us/app/mybitstore-buy-sell-bitcoin/id1579519877"
+              target="_blank"
+              ><img width="120px" src="./app-store.webp"
+            /></a>
+            <a
+              href="https://play.google.com/store/apps/details?id=app.mybitstore.com"
+              target="_blank"
+              ><img width="120px" src="./google-play.webp" /></a
+          ></mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-section background-color="#dcecff">
-      <mj-column>
-        <mj-text
-          font-family="Tahoma"
-          font-size="13px"
-          line-height="25px"
-          align="center"
-          >For the latest updates, news, and helpful tips on cryptocurrency
-          investment, make sure to follow us on all our social media
-          platforms</mj-text
-        >
-        <mj-social
-          font-size="15px"
-          icon-size="25px"
-          align="center"
-          mode="horizontal"
-        >
-          <mj-social-element
-            name="facebook"
-            padding-right="20px"
-            border-radius="20px"
-            href="https://facebook.com/mybitstore"
-          >
-          </mj-social-element>
-          <mj-social-element
-            name="instagram"
-            background-color="#CD4BC7"
-            padding-right="20px"
-            border-radius="20px"
-            href="https://instagram.com/mybitstore_app/"
-          >
-          </mj-social-element>
-          <mj-social-element
-            name="twitter"
-            padding-right="20px"
-            border-radius="20px"
-            href="https://twitter.com/mybitstore"
-          >
-          </mj-social-element>
-          <mj-social-element
-            name="youtube"
-            border-radius="20px"
-            href="https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw"
-          >
-          </mj-social-element>
-        </mj-social>
-
-        <mj-divider border-color="white" padding-top="40px"></mj-divider>
-        <mj-text
-          align="center"
-          mj-class="paragraph"
-          color="#1C1EB5"
-          font-weight="bold"
-          >Get the latest Mybitstore App for your phone</mj-text
-        >
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#dcecff">
-      <mj-column
-        ><mj-image width="100px" src="./app-store.webp" align="center" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="./google-play.webp" align="center" />
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#dcecff">
-      <mj-column
-        ><mj-text mj-class="paragraph" align="center"
-          >Visit
-          <a href="https://www.mybitstore.com/contact">Mybitstore Support</a>
-          for further enquiries</mj-text
-        ></mj-column
-      >
-    </mj-section>
   </mj-body>
 </mjml>
