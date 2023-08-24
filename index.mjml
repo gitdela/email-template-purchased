@@ -48,13 +48,15 @@
             Thank you for choosing Mybitstore for your cryptocurrency purchase.
             Your trust in us is greatly appreciated.
           </mj-text>
+          <mj-text font-family="Tahoma" font-size="15px"
+            >Here are the details of your purchase:</mj-text
+          >
           <mj-text
             mj-class="paragraph"
             line-height="25px"
             font-weight="bold"
             font-family="Tahoma"
           >
-            <p>Here are the details of your purchase:</p>
             <p>Transaction ID: {Transaction ID}</p>
             <p>Date and Time: {Date and Time of Transaction}</p>
             <p>Amount Purchased: {mount and Currency Purchased}</p>
@@ -82,37 +84,52 @@
     </mj-wrapper>
     <mj-section background-color="#dcecff">
       <mj-column>
-        <mj-social font-size="15px" icon-size="20px" mode="horizontal">
+        <mj-text
+          font-family="Tahoma"
+          font-size="13px"
+          line-height="25px"
+          align="center"
+          >For the latest updates, news, and helpful tips on cryptocurrency
+          investment, make sure to follow us on all our social media
+          platforms</mj-text
+        >
+        <mj-social
+          font-size="15px"
+          icon-size="25px"
+          align="center"
+          mode="horizontal"
+        >
           <mj-social-element
             name="facebook"
             padding-right="20px"
             border-radius="20px"
-            href="https://mjml.io/"
+            href="https://facebook.com/mybitstore"
           >
           </mj-social-element>
           <mj-social-element
             name="instagram"
-            background-color="indigo"
+            background-color="#CD4BC7"
             padding-right="20px"
             border-radius="20px"
-            href="https://mjml.io/"
+            href="https://instagram.com/mybitstore_app/"
           >
           </mj-social-element>
           <mj-social-element
             name="twitter"
             padding-right="20px"
             border-radius="20px"
-            href="https://mjml.io/"
+            href="https://twitter.com/mybitstore"
           >
           </mj-social-element>
           <mj-social-element
             name="youtube"
             border-radius="20px"
-            href="https://mjml.io/"
+            href="https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw"
           >
           </mj-social-element>
         </mj-social>
-        <mj-divider border-color="white"></mj-divider>
+
+        <mj-divider border-color="white" padding-top="40px"></mj-divider>
         <mj-text
           align="center"
           mj-class="paragraph"
@@ -122,14 +139,18 @@
         >
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#dcecff">
       <mj-column
-        ><mj-image
-          width="150px"
-          src="https://i.imgur.com/wcjYffh.png"
-          align="center"
-        />
+        ><mj-image width="100px" src="./app-store.webp" align="center" />
       </mj-column>
+      <mj-column>
+        <mj-image width="100px" src="./google-play.webp" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#dcecff">
+      <mj-column
+        ><mj-text mj-class="paragraph">For further support</mj-text></mj-column
+      >
     </mj-section>
   </mj-body>
 </mjml>
