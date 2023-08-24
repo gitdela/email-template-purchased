@@ -149,7 +149,11 @@
     </mj-section>
     <mj-section background-color="#dcecff">
       <mj-column
-        ><mj-text mj-class="paragraph">For further support</mj-text></mj-column
+        ><mj-text mj-class="paragraph" align="center"
+          >Visit
+          <a href="https://www.mybitstore.com/contact">Mybitstore Support</a>
+          for further enquiries</mj-text
+        ></mj-column
       >
     </mj-section>
   </mj-body>
