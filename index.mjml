@@ -3,7 +3,7 @@
     <mj-attributes>
       <mj-class
         name="biggest-heading"
-        font-size="20px"
+        font-size="18px"
         font-weight="bold"
         color="#1C1EB5"
       />
@@ -27,7 +27,7 @@
         />
       </mj-column>
     </mj-section>
-    <mj-wrapper background-color="#f2f7fd" padding="0px 15px 20px 15px">
+    <mj-wrapper padding="0px 10px 20px 10px">
       <mj-section
         ><mj-column>
           <mj-text mj-class="biggest-heading" align="center"
@@ -51,6 +51,18 @@
             <p>Date and Time: {Date and Time of Transaction}</p>
             <p>Amount Purchased: {Amount and Currency Purchased}</p>
             <p>Payment Method: {Payment Method Used}</p></mj-text
+          >
+          <mj-text align="center"
+            ><p>
+              If you need assistance, please don't hesitate to contact us at
+              <a href="tel:+233508637998">+233508637998</a>
+            </p>
+            <p>
+              Or send an email via
+              <a href="mailto:support@mybitstore.com"
+                >support@mybitstore.com
+              </a>
+            </p></mj-text
           >
         </mj-column></mj-section
       >
